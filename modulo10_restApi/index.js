@@ -36,14 +36,25 @@ app.get('/news-api/v1/categorias', (req, res) => {
 // Serviço de busca de noticias
 app.get('/news-api/v1/categorias/:categoriaId/noticias', (req, res) => {
 
-  res.send(req.params.categoriaId)
+  // Busca noticias de uma categoria
+  connection.query('SELECT id, titulo FROM sistema_noticias.noticia where id_categoria = ' + req.params.categoriaId , function(err, rows, fields) {
+    if (err) throw err;
 
-  // Aqui faz a busca por categorias
-  // connection.query('SELECT id, nome FROM sistema_noticias.categoria', function(err, rows, fields) {
-  //   if (err) throw err;
-  //     res.send(rows)
-  // });    
+      res.send(rows)
+  });    
 })
+
+// Serviço que busca uma noticias
+app.get('/news-api/v1/categorias/:categoriaId/noticias/:noticiaId', (req, res) => {
+
+  // Busca noticias
+  connection.query('SELECT id, titulo, conteudo  FROM sistema_noticias.noticia where id_categoria = ' + req.params.categoriaId + ' and id = ' + req.params.noticiaId , function(err, rows, fields) {
+    if (err) throw err;
+
+      res.send(rows[0])
+  });    
+})
+
 
 //subindo servidor Node
 app.listen(port, () => {
