@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import Headers from './components/Header/Headers';
-import Banner from './components/Banner/Banner';
+import Headers from './components/Header';
+import Banner from './components/Banner';
 import Footer from './Footer';
 
 class App extends Component{
