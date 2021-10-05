@@ -1,15 +1,14 @@
 import { Component } from 'react';
-import Headers from './Headers';
-import Article from './Article';
+import Headers from './components/Header/Headers';
+import Banner from './components/Banner/Banner';
 import Footer from './Footer';
-
 
 class App extends Component{
   render(){
     return (
       <div className="App">
         <Headers />
-        <Article />
+        <Banner />
         <Footer />
       </div>
     );
