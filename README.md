@@ -1,4 +1,5 @@
-# Gama Academy turma XP38
+
+# Gama Academy turma XP38  <img src="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy.png" loading="lazy" width="193" sizes="(max-width: 479px) 100vw, 193px" srcset="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy-p-500.png 500w, https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy.png 560w" alt="">
 
 Repositorio destinado aos cursos, trilhas e projetos realizados na plataforma de ensino da Gama Academy - https://www.gama.academy/
 
