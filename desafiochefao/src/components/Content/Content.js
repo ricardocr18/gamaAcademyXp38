@@ -15,6 +15,7 @@ class Content extends Component {
 
                 <div className='contentMentorando'>
                     <h2>Quem é a Mentorando?</h2>
+                    <h3>Nós rmpeos a barreira do conhecimento! Conectamos problemas reais aos melhores e mais especializados mentores capazes de transformar realizades e negócios</h3>
                     <Button variant="success">Me cadastrar</Button>{' '}
                 </div>
 
