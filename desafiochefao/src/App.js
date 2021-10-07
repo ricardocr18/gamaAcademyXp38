@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Headers from './components/Header';
 import Banner from './components/Banner';
 import Content from './components/Content';
+import SobreNos from './components/SobreNos';
 import Footer from './Footer';
 
 class App extends Component{
@@ -11,6 +12,7 @@ class App extends Component{
         <Headers />
         <Banner />
         <Content/>
+        <SobreNos/>
         <Footer />
       </div>
     );
